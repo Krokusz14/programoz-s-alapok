@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Órarend</title>
+    <style>
+        table {
+            width: 90%;
+            margin: auto;
+            font-weight: bolder;
+            width: 11%;
+            height: 1.6em;
+            border: 2px solid rgb(7, 155, 214);
+            border-radius: 10px;
+        }
+
+        caption {
+            font-size: 2.5em;
+            background-color: rgb(122, 183, 233);
+            color: rgb(23, 0, 128);
+            border-radius: 15px;
+            box-shadow: rgb(199, 211, 214) 9px 12px;
+            width: 60%;
+            margin: 0.5cm auto 1em;
+        }
+
+        thead {
+            background-color: rgb(172, 86, 252);
+            color: black;
+        }
+
+        tbody {
+            background-color: rgb(216, 165, 245);
+            color: rgb(26, 6, 48);
+        }
+
+        tfoot {
+            background-color: rgb(169, 135, 250);
+            color: rgb(29, 6, 65);
+        }
+
+        th {
+            font-weight: bolder;
+            width: 11%;
+            height: 1.6em;
+            border: 2px solid rgb(6, 123, 233);
+            border-radius: 10px;
+        }
+
+        td {
+            height: 1cm;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+<caption>Órarend</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th colspan="2">Hétfő</th>
+                <th>Kedd</th>
+                <th colspan="2">Szerda</th>
+                <th>Csütörtök</th>
+                <th>Péntek</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td colspan="2">Irodalom</td>
+                <td>Angol</td>
+                <td rowspan="2" colspan="2">Prog</td>
+                <td>Fizika</td>
+                <td>Matek</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td colspan="2">Magyar</td>
+                <td>Tesi</td>
+                <td>Töri</td>
+                <td>Angol</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td rowspan="2" colspan="2">Dk</td>
+                <td>Irodalom</td>
+                <td rowspan="2">IKT</td>
+                <td rowspan="3">InfTáv I.</td>
+                <td rowspan="2">Angol</td>
+                <td>Töri</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td rowspan="2">Matek</td>
+                <td>Ofő</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td colspan="2">Matek</td>
+                <td rowspan="3">InfTáv I.</td>
+                <td>Megyar</td>
+                <td>Tesi</td>
+            </tr>
+            <tr>
+                <th>6</th>
+                <td colspan="2">Töri</td>
+                <td>Komplex</td>
+                <td>IKT</td>
+                <td rowspan="2">Tesi</td>
+                <td rowspan="2">Komplex</td>
+            <tr>
+                <th>7</th>
+                <td colspan="2">Fizika</td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>8</th>
+                <td></td>
+                <td>MulkIsm</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

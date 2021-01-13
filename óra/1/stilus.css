@@ -1,0 +1,11 @@
+table{border: 2px solid black}
+img{height: 100px;}
+td{height: 100px;
+    background-color: rgb(170, 220, 233);
+    text-align: center;
+}
+th{background-color: rgb(76, 141, 202);
+text-align: center;
+height: 100px;}
+.piri{color: red;}
+#to{background-color: gray;}
