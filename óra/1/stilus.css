@@ -1,11 +1,30 @@
-table{border: 2px solid black}
-img{height: 100px;}
-td{height: 100px;
+table{border: 2px solid black;
+color: rgb(41, 41, 128);
+margin: auto;}
+td{height: 90px;
+    width: 150px;
     background-color: rgb(170, 220, 233);
     text-align: center;
+    border-radius: 10%;
+    box-shadow: rgb(87, 86, 86) 5px 4px;
+    font-size: larger;
 }
 th{background-color: rgb(76, 141, 202);
 text-align: center;
-height: 100px;}
+height: 60px;
+border-radius: 10%;
+box-shadow: rgb(87, 86, 86) 5px 4px;
+font-size: larger;
+}
 .piri{color: red;}
 #to{background-color: gray;}
+.veg{background-color: rgb(185, 185, 185);}
+.kezd{background-color: rgb(143, 187, 214);}
+#a{background-image: url("kepek/1.to.jpg");}
+#b{background-image: url("kepek/2.to.jpg");}
+#c{background-image: url("kepek/3.to.jpg");}
+#d{background-image: url("kepek/4.to.jpg");}
+#e{background-image: url("kepek/5.to.jpg");}
+#g{background-image: url("kepek/6.to.jpg");}
+img{width: 90px;
+    height: 100px;}
