@@ -1,0 +1,9 @@
+body{background-image: url(képek/IMG_20190329_113833.jpg);
+background-size: cover;
+background-position-x: center;
+background-position-y: center;}
+img{height: 400px; float: right; border: 1px solid black;}
+div{margin: auto; padding: 50px;
+background-color: rgba(255, 255, 255, 0.514);
+border: 1px solid black;}
+a{color: black;}

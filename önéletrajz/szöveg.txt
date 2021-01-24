@@ -1,0 +1,11 @@
+Név: Tamási Noémi
+Születési dátum:2006.02.14
+Elérhetőségem: nokadebi@gmail.com
+Iskoláim: Vénkerti Általános Iskola és AMI     link: http://venkerti.hu/
+          Mechwart András Gépipari és Informatikai Technikum    link: https://www.dszcmechwart.hu/
+Hobbik: Nem igazán van hobbim, mivel egy kifelyezetten lusta ember vagyok általában valamilyen sorozatot nézek, de mivel 
+vannak kisálataink (2 macskánk, 1 felettéb vérengző tacskó aki a kapun áthaladt embereket nyalogatássl köszönti, valamint 2 teknős)
+ezért velük is szoktam foglalkozni.
+Tervek: Nem igazán vannak terveim. Ahogy édesanyám mondami szokta "Ember tervez, isten végez!" ebből az elvből kiindúlv, ha 
+nincsennek terven nincs mit az istennek tönkre tennie. Na de viccet félre téve mivel szeretek programozni, eddig csak a
+ legó robotokkal van tapasztalatom, de mivel azt nagyon megszerettem ezért szeretném tovább bővíteni tudásom.
