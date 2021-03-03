@@ -62,6 +62,7 @@ body{
     clear: both;
   }
   h1,h2{color: #eb7100;
-text-transform: uppercase;}
+  text-transform: uppercase;}
   #bevezeto{width: 600px;}
- ul{list-style-image: url(bogyo.png);}
+   ul{list-style-image: url(bogyo.png);}
+  div h2{text-align: center;}

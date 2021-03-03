@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {background-color: lightgray;
     
 }
@@ -32,4 +33,40 @@ div {
     padding: 12%;
     border-image-source:url(Képek/Cartoon.jfif);
     box-shadow:20px 20px 25px black;
+=======
+body {background-color: lightgray;
+    
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 64px;
+}
+
+p {
+    font-size: 32px;
+}
+
+strong {
+font-size: larger;
+color: red;
+}
+
+div {
+    width: 60%;
+    height: 10cm;
+    margin: auto;
+    border-image-slice:20% 20% 20% 20%;
+    border-image-width:30px 30px 30px 30px;
+    border-image-outset:0px; 
+    border-image-repeat:stretch stretch;
+    position:relative;
+    background-color: lightgoldenrodyellow;
+
+    border: solid ;
+    text-align: center;
+    padding: 12%;
+    border-image-source:url(Képek/Cartoon.jfif);
+    box-shadow:20px 20px 25px black;
+>>>>>>> 56bbe7626e5e562431aae9598bcb9f707c62b489
 }
