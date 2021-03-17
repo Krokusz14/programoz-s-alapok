@@ -1,5 +1,11 @@
 body{background-color: #999999;
 color: white;}
-table{width: 670pt;
+#nagy{width: 670pt;
 margin: auto;
-background-color: white;}
+background-color: white;
+padding: 2pt;}
+#kicsi{margin: auto;
+width: 650pt;}
+#kicsi tr td{background-color: darkgreen;
+height: 60pt;
+text-align: center;}
