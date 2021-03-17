@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pszeudó kijelölők használata</title>
+    <style>
+        div {
+            width: 700px;
+            height: 520px;
+            border: 2px solid red;
+            font-size: 18px;
+            text-align: justify;
+            padding: 0 6mm;
+        }
+        #balra {
+            float :left;
+            overflow-x: scroll;
+        }
+        #balra p {width: 1000px;}
+        #jobbra {
+            float: right;
+            overflow-y: scroll;
+        }
+        p{border: 2px solid blue;
+        padding: 20px;
+        background-color: goldenrod;
+        transition-property: background-color, border-radius;
+        transition-duration: 2s,4s;}
+        
+        #jobbra p:hover{cursor: pointer;
+        background-color: chocolate;
+        border-radius: 20px;
+        }
+        p:active{background-color: red;
+                 color: silver;
+                 border-radius: 20px;
+}
+        
+    </style>
+</head>
+
+<body>
+    <div id="balra">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae laoreet lectus. Pellentesque quis
+        sollicitudin augue. Nulla sed faucibus erat. Mauris feugiat dapibus tempor. Sed ut quam et lacus tempor tempor
+        nec vitae risus. Duis vestibulum facilisis neque quis volutpat. Fusce sollicitudin diam ac vulputate malesuada.
+        Integer rhoncus nec nulla nec faucibus. Fusce bibendum, velit eu fringilla efficitur, justo urna pulvinar sem,
+        in euismod lorem eros sed urna. Curabitur pulvinar placerat ligula in porta. Suspendisse viverra convallis mi,
+        ut viverra quam suscipit sit amet. Cras velit nisi, faucibus sit amet luctus et, varius a ante. Sed suscipit
+        tincidunt arcu sed faucibus. Aenean semper lorem ut tristique facilisis.
+
+        Nam non nulla eget arcu finibus pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+        posuere cubilia curae; Maecenas dictum, ex at maximus ultrices, velit nisl gravida arcu, vitae placerat leo
+        lectus a arcu. Proin libero elit, semper eget dui sed, pulvinar bibendum risus. Maecenas tincidunt euismod
+        lectus, vel efficitur ante ultricies nec. Duis mollis gravida mauris, eget facilisis urna congue ut. In rhoncus
+        velit id orci imperdiet, eget semper lacus imperdiet. Ut malesuada erat ac elit pulvinar mollis. Vivamus vitae
+        eleifend mi. Praesent nec erat at tortor pulvinar interdum nec id arcu.
+
+        Vestibulum augue eros, porttitor a tempor ut, feugiat in turpis. Nullam at efficitur nunc, sed finibus purus.
+        Curabitur ac pretium orci. Maecenas ultricies dui quis tortor bibendum, id viverra libero vehicula. Quisque
+        cursus ex turpis, ac blandit arcu blandit at. Nulla nec gravida justo, eget pharetra diam. Curabitur condimentum
+        laoreet cursus. Fusce bibendum tellus non risus lacinia finibus. Aliquam erat volutpat. Class aptent taciti
+        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent enim orci, laoreet vel risus
+        sit amet, vehicula commodo erat. Vivamus blandit eu eros vitae congue. Cras suscipit leo non metus accumsan, a
+        maximus felis tempus.
+
+        Nulla pellentesque lorem vulputate justo efficitur, eu vestibulum eros auctor. Pellentesque habitant morbi
+        tristique senectus et netus et malesuada fames ac turpis egestas. Praesent malesuada ligula eget orci tempor
+        scelerisque. Aenean in nisl quis lorem posuere ultricies. Cras eleifend elementum libero, quis tincidunt erat
+        consectetur in. Donec imperdiet ligula vel dui dignissim maximus. Donec sit amet urna velit.
+
+        Curabitur non pretium est, tempus consequat justo. Suspendisse enim massa, aliquet ac urna a, dictum blandit
+        magna. Cras scelerisque non eros ut sodales. Vivamus eget tincidunt leo. Curabitur eleifend nisi ac nisi
+        fringilla auctor. Duis aliquet lacinia mauris, elementum interdum ante rhoncus non. Nam consectetur interdum
+        sapien id interdum. Donec odio orci, egestas vitae lectus non, rutrum molestie tortor. Duis non nisl in augue
+        tempor fermentum eget vehicula tellus. Vestibulum eu tellus pulvinar, molestie turpis et, sodales orci.</p>
+    </div>
+    <div id="jobbra">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac porttitor elit. Suspendisse ultrices
+        fringilla orci, eu ultricies eros porttitor vel. Integer eget dui vel sem maximus facilisis. Integer id felis
+        est. Ut nec libero sit amet dolor molestie tincidunt. Orci varius natoque penatibus et magnis dis parturient
+        montes, nascetur ridiculus mus. Vestibulum nec orci et augue suscipit auctor. Maecenas fringilla massa sed
+        libero laoreet luctus. Nam posuere tincidunt tortor, sed sollicitudin arcu ullamcorper non. Nullam commodo nisl
+        ornare risus egestas, a porttitor turpis laoreet.
+
+        Phasellus maximus sit amet risus sed sollicitudin. Etiam vitae aliquet sapien. In bibendum tellus et est congue
+        euismod. Nulla eu laoreet erat, eu ullamcorper dolor. Aliquam et tincidunt erat. Donec sed ligula tempor,
+        tristique sapien a, faucibus urna. In risus magna, scelerisque ac dui ac, porttitor egestas est. Nam
+        pellentesque velit id diam tincidunt, id tempor metus tincidunt. Mauris nec massa consectetur, gravida magna
+        bibendum, sollicitudin nisi. Curabitur tincidunt massa enim.
+
+        Mauris in placerat augue, quis auctor justo. Maecenas lorem lacus, pretium sed convallis nec, blandit ut ipsum.
+        Donec condimentum mauris vitae cursus euismod. Morbi convallis, magna in condimentum eleifend, ex orci aliquet
+        nibh, at egestas est orci nec mauris. Nulla facilisi. Praesent tincidunt ut diam ut rutrum. Integer faucibus
+        sapien sed iaculis eleifend. Vivamus quis lacus ut orci luctus rutrum. Pellentesque nec augue vitae mauris
+        scelerisque gravida ut eu arcu.
+
+        Mauris aliquet odio eget rhoncus porttitor. Ut commodo neque aliquam fringilla sodales. In massa sapien, commodo
+        id pharetra id, tincidunt nec enim. Fusce et suscipit leo, in viverra sapien. Sed tristique quam sit amet lectus
+        faucibus, eget suscipit nisl convallis. Mauris ullamcorper feugiat varius. Nullam eu felis ipsum. Integer
+        maximus posuere urna, tristique dictum sapien fringilla sed. Nulla sit amet tellus odio. Aliquam aliquet ut
+        neque quis varius. Duis scelerisque sapien eu lectus porta malesuada. Proin lobortis, elit et tristique
+        pharetra, enim elit sollicitudin elit, a elementum quam risus vitae arcu. Mauris viverra a arcu nec interdum.
+        Phasellus mi risus, lacinia tempor bibendum non, rhoncus ac mauris. Aenean consectetur purus a scelerisque
+        ultricies. Duis diam nibh, auctor a egestas id, iaculis at lectus.
+
+        Aliquam vehicula ipsum eu odio suscipit fringilla. Donec eros quam, consequat ac consequat sed, pretium nec
+        libero. Pellentesque mauris sem, pellentesque sed vehicula sed, mattis vel erat. Ut a elementum mauris. Nunc
+        vestibulum, orci a ornare commodo, lectus nulla ultricies leo, id pulvinar neque sem in dolor. Sed malesuada,
+        sapien sit amet efficitur blandit, nunc libero sagittis mi, eu aliquam tortor urna in lorem. Ut cursus, felis id
+        auctor laoreet, enim purus porttitor ligula, vulputate lacinia tortor tortor sit amet nulla. Vestibulum in nulla
+        a turpis sodales ullamcorper.</p>
+    </div>
+</body>
+
+</html>

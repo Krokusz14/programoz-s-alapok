@@ -1,0 +1,30 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    font-size: 18px;
+    text-align: justify;
+    padding: 0 6mm;
+    
+}
+/*#bal {
+    float: left;
+    overflow-x: scroll;
+}
+#bal p {width: 2750px;}
+#jobb {
+    margin-left: 25px;
+    float: left;
+    overflow-y: scroll;
+}*/
+p{height: 50px;
+width: 50px;
+border: 2px solid blue;
+border-radius: 100%;
+float: left;
+margin: 20px;
+background-color: rgb(165, 32, 218);
+transition-property: float;
+transition-duration: 21s;
+}
+p:hover{float: right;}
