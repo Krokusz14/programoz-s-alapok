@@ -1,11 +1,14 @@
 body{background-color: #999999;
 color: white;}
-#nagy{width: 670pt;
+#nagy{width: 670px;
 margin: auto;
 background-color: white;
-padding: 2pt;}
+padding: 2pt;
+text-align: center;}
 #kicsi{margin: auto;
 width: 650pt;}
 #kicsi tr td{background-color: darkgreen;
 height: 60pt;
 text-align: center;}
+.kep{margin: auto;}
+.jel{float: left;}
