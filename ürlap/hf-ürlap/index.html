@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hf</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <label for="nev">Teljes név</label>
+            <input type="name" id="nev" name="nev"><br><br>
+            <label for="nem">Neme</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Nő</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Férfi</label><br><br>
+
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="tel">Telefonszám *</label>
+            <input type="tel" id="tel" name="tel"><br><br>
+            <label for="nyelv">Levelezés alapértelmezett nyelve *</label>
+            <select name="nyelv" id="nyelv">
+                <option value="Magyar">Magyar</option>
+                <option value="Német">Deutsch</option>
+                <option value="Japán">日本語</option>
+                <option value="Angol">English</option>
+                <option value="Arab">العربية</option>
+                <option value="Cseh">Čeština</option>
+                <option value="Észt">Eesti</option>
+                <option value="Francia">Français</option>
+                <option value="Olasz">Italiano</option>
+                <option value="Kínai">中文</option>
+                <option value="Orosz">русский</option>
+            </select><br><br>
+            <label for="date">Születési idő</label>
+            <input type="date" id="date" name="date"><br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
