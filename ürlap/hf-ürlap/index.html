@@ -12,35 +12,43 @@
 <body>
     <form>
         <fieldset>
-            <label for="nev">Teljes név</label>
-            <input type="name" id="nev" name="nev"><br><br>
-            <label for="nem">Neme</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Nő</label>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Férfi</label><br><br>
+            <table>
+                <tr>
+                    <td><label for="nev">Teljes név</label></tr>
+                    <td><label for="nev">Neme</label></tr>
+                    <td><label for="email">Email *</label></tr>
+                    <tr> <label for="tel">Telefonszám *</label></tr>
+                    <tr><label for="nyelv">Levelezés alapértelmezett nyelve *</label></tr>
+                    <tr><label for="date">Születési idő</label></tr>
+                </tr>
+                <tr>
+                    <tr> <input type="text" id="nev" name="neve"><br><br></tr>
+                    <tr><input type="radio" id="female" name="gender" value="female"><label for="female">Nő</label>
+                        <input type="radio" id="other" name="gender" value="other"><label for="other">Férfi</label><br><br></tr>
+                    <tr><input type="email" id="email" name="email"></tr>
+                    <tr> <input type="tel" id="tel" name="tel"></tr>
+                    <tr><select name="nyelv" id="nyelv">
+                        <option value="Magyar">Magyar</option>
+                        <option value="Német">Deutsch</option>
+                        <option value="Japán">日本語</option>
+                        <option value="Angol">English</option>
+                        <option value="Arab">العربية</option>
+                        <option value="Cseh">Čeština</option>
+                        <option value="Észt">Eesti</option>
+                        <option value="Francia">Français</option>
+                        <option value="Olasz">Italiano</option>
+                        <option value="Kínai">中文</option>
+                        <option value="Orosz">русский</option>
+                    </select></tr>
+                    <td> <input type="date" id="date" name="date"></td>
+                    <td> <input type="submit"></td>
+                </tr>
+            </table>
 
-            <label for="email">Email *</label>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="tel">Telefonszám *</label>
-            <input type="tel" id="tel" name="tel"><br><br>
-            <label for="nyelv">Levelezés alapértelmezett nyelve *</label>
-            <select name="nyelv" id="nyelv">
-                <option value="Magyar">Magyar</option>
-                <option value="Német">Deutsch</option>
-                <option value="Japán">日本語</option>
-                <option value="Angol">English</option>
-                <option value="Arab">العربية</option>
-                <option value="Cseh">Čeština</option>
-                <option value="Észt">Eesti</option>
-                <option value="Francia">Français</option>
-                <option value="Olasz">Italiano</option>
-                <option value="Kínai">中文</option>
-                <option value="Orosz">русский</option>
-            </select><br><br>
-            <label for="date">Születési idő</label>
-            <input type="date" id="date" name="date"><br><br>
-            <input type="submit">
+           
+           
+           
+
         </fieldset>
     </form>
 </body>

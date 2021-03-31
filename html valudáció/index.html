@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <table>
+                <tr>
+                    <td> <label for="neve">Név</label></td>
+                    <td> <label for="tel">Telefonszám</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="neve" name="nev"></td>
+                    <td> <select name="korzetszam" id="tel">
+                        <option value="36">36</option>
+                        <option value="52">52</option>
+                        <option value="70">70</option>
+                        <option value="20">20</option>
+                    </select>
+                        <input type="tel" id="tel" name="tel"></td>
+                   
+                </tr>
+                <tr>
+                    <td> <label for="varos">Város</label></td>
+                    <td> <label for="szam">Irányitószám</label></td
+                </tr>
+                <tr>
+                    <td>
+                        <select name="varos" id="varos">
+                            <option value="Derecske">Derecske</option>
+                            <option value="Budapest">Budapest</option>
+                            <option value="Budapest">Debrecen</option>
+                            <option value="London">London</option>
+                            <option value="Szeged">Szeged</option>
+                        </select>
+                    </td>
+                    <td><input type="number" id="szam" name="iranyszam"></td>
+                </tr>
+                <tr>
+                    <td> <label for="hely">Ország</label></td>
+                    <td> <label for="cim">Cím</label></td>
+                </tr>
+                <tr>
+                    <td> <select name="orszag" id="hely">
+                        <option value="Magyar">Magyar</option>
+                        <option value="Német">Deutsch</option>
+                        <option value="Japán">日本語</option>
+                        <option value="Angol">English</option>
+                        <option value="Arab">العربية</option>
+                        <option value="Cseh">Čeština</option>
+                        <option value="Észt">Eesti</option>
+                        <option value="Francia">Français</option>
+                        <option value="Olasz">Italiano</option>
+                        <option value="Kínai">中文</option>
+                        <option value="Orosz">русский</option>
+                    </select></td>
+                    <td><input type="text" id="cim" name="cim"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>
