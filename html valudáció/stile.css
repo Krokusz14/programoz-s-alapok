@@ -1,0 +1,19 @@
+body{font-family: Arial;}
+form{width: 450px;}
+td{height: 30px;}
+input{border: solid lightgray 2px;
+height: 30px;}
+.menu{border: solid lightgray 2px;
+height: 35px;
+color: gray;}
+label{font-size: 14px;}
+input:hover{border: darkred solid 2px;}
+#gomp{border: none;
+width: 100%;
+background-color: rgb(67, 179, 67);
+color: white;
+height: 30px;
+margin-top: 10px;}
+#hely{width: 150px;}
+#varos{width: 150px}
+.szel{width: 95%;}

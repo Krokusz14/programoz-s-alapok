@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="stile.css">
 </head>
 <body>
+    <h2>Szállitási cím módosítása</h2>
     <form>
         <fieldset>
             <table>
@@ -17,22 +18,22 @@
                 </tr>
                 <tr>
                     <td><input type="text" id="neve" name="nev"></td>
-                    <td> <select name="korzetszam" id="tel">
+                    <td> <select name="korzetszam" id="tel" class="menu">
                         <option value="36">36</option>
                         <option value="52">52</option>
                         <option value="70">70</option>
                         <option value="20">20</option>
                     </select>
-                        <input type="tel" id="tel" name="tel"></td>
+                        <input type="tel" name="tel"></td>
                    
                 </tr>
                 <tr>
                     <td> <label for="varos">Város</label></td>
-                    <td> <label for="szam">Irányitószám</label></td
+                    <td> <label for="szam">Irányitószám</label></td>
                 </tr>
                 <tr>
                     <td>
-                        <select name="varos" id="varos">
+                        <select name="varos" id="varos" class="menu">
                             <option value="Derecske">Derecske</option>
                             <option value="Budapest">Budapest</option>
                             <option value="Budapest">Debrecen</option>
@@ -40,14 +41,14 @@
                             <option value="Szeged">Szeged</option>
                         </select>
                     </td>
-                    <td><input type="number" id="szam" name="iranyszam"></td>
+                    <td><input type="number" class="szel" id="szam" name="iranyszam" placeholder="4032"></td>
                 </tr>
                 <tr>
                     <td> <label for="hely">Ország</label></td>
                     <td> <label for="cim">Cím</label></td>
                 </tr>
                 <tr>
-                    <td> <select name="orszag" id="hely">
+                    <td> <select name="orszag" id="hely" class="menu">
                         <option value="Magyar">Magyar</option>
                         <option value="Német">Deutsch</option>
                         <option value="Japán">日本語</option>
@@ -60,8 +61,11 @@
                         <option value="Kínai">中文</option>
                         <option value="Orosz">русский</option>
                     </select></td>
-                    <td><input type="text" id="cim" name="cim"></td>
+                    <td><input type="text" class="szel" id="cim" name="cim"></td>
                 </tr>
+                <tr> <td colspan="2"><input type="submit" id="gomp"></td> </tr>             
+                 
+
             </table>
         </fieldset>
     </form>
